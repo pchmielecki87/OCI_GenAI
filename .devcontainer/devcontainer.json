@@ -1,0 +1,12 @@
+{
+    "name": "RHEL9",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": ["--userns=keep-id"],
+    "containerUser": "vscode"
+    // "features": {
+    //      "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    // }
+}
+
